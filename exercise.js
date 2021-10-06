@@ -195,6 +195,7 @@ console.log(filterTruthy);
     // let array2 = [2, 30, 1];
     // Expected result:
     // console.log(mergeArray(array1, array2)); [3, 2, 30, 1]
+    
 /*
 let array1 = [1, 2, 3];
 let array2 = [2, 30, 1];
@@ -205,32 +206,6 @@ let mergeValue = [...new Set(array3)];
 
 console.log(mergeValue);
 */
-
-/*
-function merge_array(array1, array2) {
-    let result_array = [];
-    let arr = array1.concat(array2);
-    let len = arr.length;
-    let assoc = {};
-
-    while(len--) {
-        var item = arr[len];
-
-        if(!assoc[item]) 
-        { 
-            result_array.unshift(item);
-            assoc[item] = true;
-        }
-    }
-
-    return result_array;
-}
-
-
-console.log(merge_array(array1, array2));
-
-*/
-
 
 
 
