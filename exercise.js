@@ -205,7 +205,7 @@ let mergeValue = [...new Set(array3)];
 
 console.log(mergeValue);
 
-
+/*
 function merge_array(array1, array2) {
     let result_array = [];
     let arr = array1.concat(array2);
@@ -228,6 +228,7 @@ function merge_array(array1, array2) {
 
 console.log(merge_array(array1, array2));
 
+*/
 
 
 
