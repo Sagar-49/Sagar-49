@@ -26,11 +26,13 @@ function showPrimes (limit) {
     }  
 }
 */
+
 // Q:-3 Write a program that prints each number from 1 to 100 on a new line.
 // - For each multiple of 3, print "Fizz" instead of the number.
 // - For each multiple of 5, print "Buzz" instead of the number.
 // - For numbers which are multiples of both 3 and 5, print "FizzBuzz"
 //   instead of the number.
+
 /*
 function number(i) {
     if ((i % 3 === 0) && (i % 5 === 0))    
@@ -46,13 +48,17 @@ function number(i) {
     */
 
 // Q:-4 Write a program to print a star-triangle pattern.
+
 /*
 showStars(5);
-  function showStars(rows){
+
+  function showStars(rows)  {
       for (let row = 1; row <= rows; row++) {       
-          let pattern = '';                          
-          for (let i = 0; i < row; i++)              
+          let pattern = ''; 
+
+          for (let i = 1; i <= row; i++)  
            pattern += '* ';
+
            console.log(pattern);
       }
   }
@@ -89,7 +95,7 @@ console.log(Math.min(...array));
 let inputArray = [1, 2, 3, 4] ;
 
 let outputArray = inputArray.map(function(value) {
-          return  value * 2; 
+          return  (value * 2); 
 }); 
 
 console.log(outputArray);
@@ -101,7 +107,7 @@ console.log(outputArray);
 let number = [1, 2, 3, 4, 6, 7, 8];
     
 let total = number.push(9, 5);    
-let removed = number.splice(6, 1);
+let removed = number.splice(3, 2);
 console.log(number);
 */
 
@@ -144,7 +150,7 @@ console.log(myColor.join(' + '));
 let arr1 = [3, 8, 7, 6, 5, -4, -3, 2, 1, 3984723, 200, 400, 37864];
 
 const array = arr1.sort(function(a, b) {
-    return a - b;
+    return (a - b);
 });   
 
 console.log(array);  
@@ -195,7 +201,7 @@ console.log(filterTruthy);
     // let array2 = [2, 30, 1];
     // Expected result:
     // console.log(mergeArray(array1, array2)); [3, 2, 30, 1]
-    
+
 /*
 let array1 = [1, 2, 3];
 let array2 = [2, 30, 1];
