@@ -190,8 +190,9 @@ console.log(book);
 let array = [NaN, 0, 15, false, -22,'', undefined, 47, null];
 
 let filterTruthy = array.filter(Boolean); 
-
+let filterFalsy = array.filter(Boolean => !Boolean);
 console.log(filterTruthy); 
+console.log(filterFalsy);
 */
 
 
